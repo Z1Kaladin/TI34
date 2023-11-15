@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric figures</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <h1>Geometric figures</h1>
+    <div class="divi-container">
+        <div class="cuadrado"></div>
+        <div class="triangulo"></div>
+        <div class="circulo"></div>
+        <div class="formContainerSquare">
+            <section>
+                <h2>Calculate the area and perimeter of a square</h2>
+                <form action="">
+                    <div>
+                        <label for="squareInput">
+                            How long is each side?
+                        </label>
+                        <p id="squarePerimeter"></p>
+                        <p id="squareArea"></p>
+                        <input type="number" id="squareInput">
+                    </div>
+                    <div class="buttondiv">
+                        <button type="button" onclick="squarePerimeterCalculate()" class="btn">Calculate perimeter</button>
+                        <button type="button" onclick="squareAreaCalculate()" class="btn">Calculate area</button>
+                        <button type="button" onclick="resetSquare()" class="btn">Reset</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="formContainerTriangle">
+            <section>
+                <h2>Calculate the area and perimeter of a triangle</h2>
+                <form action="">
+                    <div class="grid-container">
+                        <div>
+                            <label for="triangleSide1">
+                                Length of side 1:
+                            </label>
+                            <input type="number" id="triangleSide1">
+                        </div>
+                        <div>
+                            <label for="triangleSide2">
+                                Length of side 2:
+                            </label>
+                            <input type="number" id="triangleSide2">
+                        </div>
+                        <div>
+                            <label for="triangleBase">
+                                Length of base:
+                            </label>
+                            <input type="number" id="triangleBase">
+                        </div>
+                        <div>
+                            <label for="triangleHeight">
+                                Height of the triangle:
+                            </label>
+                            <input type="number" id="triangleHeight">
+                        </div>
+                    </div>
+                    <div class="buttondiv">
+                        <p id="trianglePerimeter"></p>
+                        <p id="triangleArea"></p>
+                        <p></p>
+                        <button type="button" onclick="trianglePerimeterCalculate()" class="btn">Calculate perimeter</button>
+                        <button type="button" onclick="triangleAreaCalculate()" class="btn">Calculate area</button>
+                        <button type="button" onclick="resetTriangle()" class="btn">Reset</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="formContainerCircle">
+            <section>
+                <h2>Calculate the area and perimeter of a circle</h2>
+                <form action="">
+                    <div>
+                        <label for="circleInput">
+                            How long is the radius?
+                        </label>
+                        <p id="circlePerimeter"></p>
+                        <p id="circleArea"></p>
+                        <input type="number" id="circleInput">
+                    </div>
+                    <div class="buttondiv">
+                        <button type="button" onclick="circlePerimeterCalculate()" class="btn">Calculate perimeter</button>
+                        <button type="button" onclick="circleAreaCalculate()" class="btn">Calculate area</button>
+                        <button type="button" onclick="resetCircle()" class="btn">Reset</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <script src="js/Script.js"></script>
+</body>
+</html>
