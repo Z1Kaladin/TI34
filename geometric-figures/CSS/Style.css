@@ -17,15 +17,14 @@ h1 {
 h2 {
     color: #ffffff;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    
     border-radius: 5px;
 }
 
 
 .formContainerSquare {
     background-color: rgb(0, 0, 165);
-    background-image: url(https://i0.wp.com/waytoomany.games/wp-content/uploads/2023/01/Persona-3-Portable-2023-01-29-07-26-47.png?fit=3840%2C2160&ssl=1);
-    background-size: cover;
+    
     color: #ffffff;
     margin: 15px;
     padding: 15px;
@@ -40,7 +39,7 @@ h2 {
 }
 
 label {
-    background-color: rgba(0, 0, 0, 0.8);
+    
     font-size: 24px;
     border-radius: 5px;
     padding: 5px;
@@ -56,8 +55,7 @@ label {
     text-align: center;
     height: 350px;
     width: 450px;
-    background-image: url(https://sm.ign.com/t/ign_nordic/review/p/persona-5-/persona-5-review_htue.1280.jpg);
-    background-size: cover;
+    
 
 }
 form div {
@@ -80,9 +78,8 @@ form div {
     height: 350px;
     width: 450px;
     border: 1px solid black;
-    box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.5);
-    background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*cz97DqG8yiPh2G2k3lz-rQ.jpeg);
-    background-size: cover;
+    
+    
 
 }
 
